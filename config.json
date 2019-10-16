@@ -1,0 +1,8 @@
+{
+  "bot_username": "bot username",
+  "oauth_token": "token",
+  "channels": ["username"],
+  "prefix": "!",
+  "donationAlerts_Token": "token",
+  "cooldown": "2000"
+}
