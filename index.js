@@ -4,7 +4,6 @@ const config = require('./config.json')
 
 const cooldown = new Set()
 const dalert_endpoint = 'https://www.donationalerts.com/api/v1'
-const randomDota2 = require('./modules/dota2/randomRanks')
 
 const options = {
   identity: {
