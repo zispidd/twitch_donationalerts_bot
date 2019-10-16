@@ -28,7 +28,7 @@ async function onMessageHandler (target, context, msg, self) {
   var commandName = args.shift().toLowerCase()
   const roomId = context['room-id']
   switch (commandName) {
-    case 'lastdonations':
+    case 'lastdonation':
       if(cooldown.has(roomId)) return
       cooldown.add(roomId)
       try {
